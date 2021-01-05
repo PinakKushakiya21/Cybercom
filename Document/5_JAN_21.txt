@@ -1,0 +1,23 @@
+Yesterday we have a task to create a repositary and run some command which given in documentation by Chirag sir.
+
+So after yesterday meeting I completed that task and in that run some commands are :
+
+-> $mkdir = to make the directory .
+-> git clone = to cone that in the local desktop.
+-> git fetch origin = to get updated result of our repo. 
+-> git status = to check the file is up to date or not.
+-> git add = to add a file in the repo.
+-> git commit = to commit and with that we passed the message.
+-> git push = to push the modified file in the repo.
+
+-> When performing task i don't know how to exit the vim editor so that i resolve this to open the terminal ang go for the furthur process.
+-> The editor is open when we not passed message during merge file.
+-> Also Chirag sir cleared the some doubt about the git.
+-> Also explain every doubt with proper example.
+
+In today meeting we have a task to create a repository and cretae a 3 folder in that are :
+1) Document : In this file we create a document of our everyday full work and upload in the end of the day.
+2) Coding : If we practice some coding then upload a code file in this folder.
+3) Practice : what we practice in the whole day for our personal purpose.
+
+So I also completed that task. 
