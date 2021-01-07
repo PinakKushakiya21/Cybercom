@@ -1,0 +1,7 @@
+-> Today there is a last session of git, in which chirag sir clear some more doubt of us and 
+also explain some command again.
+
+-> So its a good session of git in which we know how to access git, how to manage, how to maintain, 
+purpose of commit, push, stages, etc..
+
+-> For tomorrow we started journey of javascript.
