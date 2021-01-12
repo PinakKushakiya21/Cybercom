@@ -1,0 +1,16 @@
+Sorry for not uploaded the task of 11th January 2021 because I have facing some problem related my laptop so that 
+not upload document and coding. 
+But today I upload all my work on the github.
+
+=> 11th Jan 2021
+-> Yesterday I completed the javascript all the topics : 
+1) If else statement
+2) Boolean logic 
+3) Ternary operator 
+4) Truthy and Falsy 
+5) Functions
+6) Function Statement
+7) Arrays 
+
+In this topics i have some doubt in truthy and falsy value which solved by preetie madam during meeting time
+and cleared the topic in detail.
