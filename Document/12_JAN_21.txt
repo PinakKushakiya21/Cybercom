@@ -1,0 +1,14 @@
+Today I learned some topics like 
+
+-> how execute js
+-> execution contexts 
+-> hoisting in this i want one example by pritee madam that i ask in doubt session
+-> scope chain
+-> usage of this keyword
+-> Objects, proerties and methods = only watch the video session not practice well
+-> Loops and iteration
+
+All the above topic is cleared concept based but in some topics I not practice as well as much today but I will try 
+my best to solve more problems for more clearance. 
+
+ 
