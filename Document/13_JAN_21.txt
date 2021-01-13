@@ -1,0 +1,11 @@
+Today I learn the topics are :
+-> DOM
+-> Practical work for the objects and methods.
+-> Project setup 
+-> Loops and iteration
+
+Pritee madam also given some work are CSP and Browser local storage and session storage so that I research on it
+and I learn so much and also madam explain the usage of local and session storage.
+
+I also write my doubt in the excel sheet about the lexically scoping because not understand properly, so that 
+I hope madam will cleared my doubt as soon as possible.
