@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Fibonacci series</h1>
+</body>
+<script type = "text/javascript"> 
+    var nu = prompt("Enter Number for fibonacci series :");
+    function fibonacci(num) 
+    { 
+        var num1=0; 
+        var num2=1; 
+        var sum; 
+        document.write(num1+" "+num2)
+        for (i = 2; i < num; ++i)  
+        { 
+            sum=num1+num2; 
+            num1=num2; 
+            num2=sum; 
+            document.write(" "+num2)
+        } 
+        
+        return num2;
+    }
+    fibonacci(nu)
+    //document.write("Fibonacci(5): "+fibonacci(5)+"<br>"); 
+    //document.write("Fibonacci(8): "+fibonacci(8)+"<br>"); 
+    </script>
+</html>
