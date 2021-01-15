@@ -1,0 +1,6 @@
+-> Clearing the cocept of scoping chain by pritee madam in meeting.
+-> Learn about Create object function
+-> In Prototype chain but I have doubt in that topic so i write my doubt in the excel sheet.
+-> Difference between primitive and object.
+-> Prototype function creation.
+-> First Class Function not in detailbut understand the concept and I have doubt in example so that i ask to madam in tomorrow meeting.
