@@ -1,0 +1,16 @@
+In today's lecture the topic I learned and understand are :
+
+-> Function returning function : In this topic the similar to nested function is used in which one function 
+				 is written inside another function and the output is send the final output 
+				 to the screen.
+
+-> IIFE : Immediately invoked function expression : Is used to invoked the function , In this what is 
+						    inside the paranthesis cannot be statement, its a expression.
+
+-> Closures : An inner function has always access to the variables & parameters of its outer function, 
+	      even after the outer function has returned.
+
+-> Bind , Call & Apply : Bind is allows "pre-set" some arguments.
+
+-> Difference Between ES5 AND ES6.
+-> How the written code in ES5 and how it become so easy in ES6. 
