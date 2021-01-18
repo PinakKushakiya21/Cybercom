@@ -1,0 +1,13 @@
+Today I Learned topics are :
+
+-> Arrow function 
+
+-> Arrow function lexical 'this' keyword : we declared this in any variable and call the
+					   variable which we declared outside the function.
+			-> The above statement is only work in ES5 not in ES6 because without stored this keyword in any 
+			   variable we can call the variable which is outside the function.
+
+-> Destrucuring : Actually I not get properly this concept so that I asked madam to elaborate.
+
+-> Arrays : Stores many data of same datatype.
+	    - In this also learn about the difference between for loop and foreach loop.
