@@ -1,0 +1,2 @@
+Today I learned how to implement the classes and sub-classes.
+I have not practice as much as do due to some work but the classes concept is cleared.
