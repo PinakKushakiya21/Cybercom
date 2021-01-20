@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+    <script>
+         var person = [
+            {
+                name:'max',
+                age:25,
+                email:'max12@gmail.com',
+                mobile:9987456321
+            },
+            {
+                name:'moron',
+                age:24,
+                email:'moron@gmail.com',
+                mobile:9966541230
+            },
+            {
+                name:'mahima',
+                age:29,
+                email:'mahi@gmail.com',
+                mobile:7895323165
+            }
+        ]
+        
+        var data = person.sort((a,b)=>{
+            return a.age - b.age;
+        })
+        console.log(data);
+        //
+
+        function bubbleSort(arr) {
+            for (let i = 0; i < arr.length; i++) {
+                for (let j = 0; j < arr.length - i - 1; j++) {
+                    if (arr[j + 1] < arr[j]) {
+                        // ES6 way of swapping array elements
+                        [arr[j + 1], arr[j]] = [arr[j], arr[j + 1]];
+                    }
+                }
+            }
+            return arr;
+        }
+        console.log(bubbleSort(person));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
