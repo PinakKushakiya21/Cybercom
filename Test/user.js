@@ -1,3 +1,4 @@
+// Insert Function..
 var userarr = [];
 
 function adduser()
@@ -28,6 +29,14 @@ function adduser()
 	localStorage.setItem("user", JSON.stringify(userarr));
 };
 
+function getAge(date){
+    var d = new Date(date)
+    var dt = new Date();    
+    return dt.getFullYear() - d.getFullYear();
+}
+
+
+//Retrieve Function..
 function fetchuser()
 {
     var userarr = localStorage.getItem('user');
@@ -35,7 +44,7 @@ function fetchuser()
 		
 	userarr = items;
 		
-	document.write('<table border = "1" id = "table1">');
+	document.write('<table class="table table-bordered table-light" id="tableData">');
 	document.write('<tr>');
     document.write('<th>Name</th> <th>Email</th> <th>Password</th> <th>Date Of Birth</th> </tr> <tr>');
     for(var k = 0 ; k < userarr.length; k++)
@@ -44,20 +53,33 @@ function fetchuser()
         document.write('<td>'+ userarr[k].email + '</td>' );
         document.write('<td>'+ userarr[k].pswd + '</td>' );
         document.write('<td>'+ userarr[k].birthdate + '</td>' );
-        document.write('<td>''<button type="button" onclick="updateUser()" class="btn btn-link"> Update </button>''</td>' );
+        document.write('<td>'+ getAge(userarr[k].birthdate) + '</td>' );
+        document.write('<td><button type="button" onclick="updateUser()" class="btn btn-link"> Update </button></td>' );
+        document.write('<td><button type="button" onclick="deleteteUser()" class="btn btn-link"> Update </button></td>' );
 		document.write('</tr>');
 	}
 	document.write('</table>');	
 }
-document.getElememtById("usertable").innerHTML = fetchuser();
+document.getElememtById('usertable').innerHTML = fetchuser();
 
+// Update function..
 function updateuser(){
-    var usdata=JSON.parse(localstorage.getItem('user'));
-    usdata.forEach(function(obj))
+    var usdata=JSON.parse(localStorage.getItem('user'));
+    usdata.forEach(function(obj)
     {
         document.getElementById('name').value=obj.name
         document.getElementById('email').value=obj.email;
         document.getElementById('password').value=obj.pswd;
         document.getElementById('dob').value=obj.birthdate;
-    }
+        document.getElementById('btnsubmit').innerHTML="Update Record";
+    });
+}
+
+// Delete function..
+function deleteuser(){
+    var usdata=JSON.parse(localStorage.getItem('user'));
+    usdata.forEach(function(obj)
+    {
+        localStorage.removeItem(obj.name);
+    });
 }

@@ -1,3 +1,4 @@
+// login credentials verification..
 function validate()
 {
     var data = JSON.parse(localStorage.getItem('array'));
@@ -7,7 +8,7 @@ function validate()
 
     data.forEach(function(obj)
     {
-        uname = obj.ademail;
+        uname = obj.adname;
         pwd = obj.adpass;
     });
     if(username === uname && password === pwd)
@@ -19,6 +20,8 @@ function validate()
         alert("Wrong credentials..");
     }
 };
+
+//check the already admin is registered or not
 function check()
 {
     var array = localStorage.getItem('admin');
@@ -36,4 +39,14 @@ function check()
 				window.location = "login.html";
 			}
 
+}
+
+function logout()
+{
+    var data = JSON.parse(localStorage.getItem('user'));
+    var uname;
+    data.forEach(function(obj)
+    {
+        uname=obj.uname;
+    });
 }
