@@ -42,9 +42,9 @@
     </style>
 </head>
 
-<body>
+<body onload="check()">
     <div id="wrapper">
-        <form method="POST" action="index.php" onsubmit="return Validate()" name="vform">
+        <form method="POST" action="login.html" onsubmit="addElement()">
             <div id="username_div">
                 <label>Username</label> <br>
                 <input type="text" name="username" class="textInput">
@@ -66,7 +66,7 @@
             </div>
             <div id="city_div">
                 <label>City</label> <br>
-                <select id="city_div">
+                <select name="citydrp">
                     <option value="Select city">Select city</option>
                     <option value="Surat">Surat</option>
                     <option value="Mumbai">Mumbai</option>
@@ -76,8 +76,8 @@
                 <div id="name_error"></div>
             </div>
             <div id="state_div">
-                <label>City</label> <br>
-                <select id="state_div">
+                <label>State</label> <br>
+                <select name="statedrp">
                     <option value="Select state">Select state</option>
                     <option value="Gujarat">Gujarat</option>
                     <option value="Maharastra">Maharastra</option>
@@ -85,7 +85,7 @@
                 <div id="name_error"></div>
             </div>
             <div id="checkbox_div">
-                <input type="checkbox" name="terms">
+                <input type="checkbox" name="terms" required="required">
                 <label>Terms & Condition</label> <br>
                 <div id="name_error"></div>
             </div>
