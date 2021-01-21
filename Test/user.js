@@ -13,7 +13,7 @@ function adduser()
         pswd : uspass,
 		birthdate : usbdate
     };
-    
+     
     if(usname==="" || usemail==="" || uspass==="" || usbdate==="")
     {
         alert('Please fill the record..');

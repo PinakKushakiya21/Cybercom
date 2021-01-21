@@ -2,7 +2,8 @@
 function validate()
 {
     var data = JSON.parse(localStorage.getItem('array'));
-    var uname, pwd;
+    var data = JSON.parse(localStorage.getItem('user'));
+    var uname, pwd, umn, upsd;
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
@@ -11,9 +12,20 @@ function validate()
         uname = obj.adname;
         pwd = obj.adpass;
     });
+    userdata.forEach(function(obj)
+    {
+        unm=obj.name;
+        upsd=obj.pswd;
+    });
+
+    
     if(username === uname && password === pwd)
     {
         window.location = "dashboard.html";
+    }
+    else if(username === unm && password === upsd)
+    {
+        window.location = "sub_user.html";
     }
     else
     {

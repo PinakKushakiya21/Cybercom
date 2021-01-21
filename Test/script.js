@@ -1,4 +1,4 @@
-// Registered the data of the user in local storage.
+// Registered the data of the user in local storage. 
 var admin = [];
 function addElement()
 {
