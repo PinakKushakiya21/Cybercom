@@ -3,7 +3,7 @@
 <head>
     <title>Login Form </title>
     <!-- Include CSS File Here -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" />
     <!-- Include JS File Here -->
     <style>
         /* Below line is used for online Google font */
@@ -99,34 +99,7 @@
             background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
         }
     </style>
-    <script src="script.js">
-        /*var attempt = 3; // Variable to count number of attempts.
-        // Below function Executes on click of login button.
-        function validate() {
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-            if (username == "admin" && password == "admin") {
-                alert("Login successfully");
-                window.location = "registration.html"; // Redirecting to other page.
-                return false;
-            }
-            /*else {
-                attempt--;// Decrementing by one.
-                alert("You have left " + attempt + " attempt;");
-                // Disabling fields after 3 attempts.
-                if (attempt == 0) {
-                    document.getElementById("username").disabled = true;
-                    document.getElementById("password").disabled = true;
-                    document.getElementById("submit").disabled = true;
-                    return false;
-                }
-            }
-        }
-
-        function register() {
-            window.location = "registration.html";
-        }*/
-    </script>
+    <script src="login.js"></script>
 </head>
 
 <body>
@@ -140,7 +113,7 @@
                 <input type="password" name="password" id="password" required="required"/>
                 <input type="button" value="Login" id="submit" onclick="validate()" />
                 <center>OR</center>
-                <input type="button" value="Registration" id="submit" onclick="register()" />
+                <input type="button" value="Registration" id="submit" onclick="check()" />
             </form>
         </div>
     </div>
