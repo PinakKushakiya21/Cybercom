@@ -1,0 +1,12 @@
+Today I learned basic concept of php again in that :
+
+-> die and exit Functions : to terminate the funvtion
+-> Expression Matching : to match the expression of any field.
+-> Functions with Arguments: passing any argument as a variable in fuction.
+33. Functions with a Return Value : returning some value buy function which is stored in some variable
+ when we call that function
+-> Global Variables and Functions : to access globally.
+-> String Functions
+
+The above I will practice and properly cleared the concept and also working on javascript program which
+we perform on test in that i have some doubts so that i practice that after today's lectured completed.
