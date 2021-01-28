@@ -1,0 +1,16 @@
+Today I learned topics are :
+
+-> Word censoring
+-> Find and replace
+-> Timestamps
+-> Random Number Generation
+-> Redirect using header
+-> Server Variables : 1. Script name 2. Host name
+-> Getting visitors IP address
+-> Detecting/Blocking IP Address
+-> Working with $_GET
+-> Working with $_POST
+-> Working with Form data
+
+All this concepts practical i done in my php folder with the today's date name file.
+I have cleared all the concept with practicals.
