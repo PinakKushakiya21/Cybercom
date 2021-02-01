@@ -1,0 +1,14 @@
+Today I learned the topics are :
+
+-> Database 
+	- how to access
+	- how to connect 
+-> Select statement
+	- fetching the data from table
+	- how many way to fetch
+	- using order by function
+-> More BAsic querying
+	- alter table in phpmyadmin
+	- update data in phpmyadmin
+
+Above mentioned and more than that we learned in today videos and the coding of today I uploaded in my coding folder.
